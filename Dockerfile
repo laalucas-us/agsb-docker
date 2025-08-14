@@ -14,7 +14,7 @@ WORKDIR /app
 # 安装依赖 & 下载脚本
 RUN apk add --no-cache curl bash \
  && npm install -g npm@11.5.2 \
- && curl -LOs https://raw.githubusercontent.com/yonggekkk/ArgoSB/main/argosb.sh \
+ && curl -LOs https://raw.githubusercontent.com/laalucas-us/agsb-docker/refs/heads/main/argosb.sh \
  && curl -LOs https://raw.githubusercontent.com/laalucas-us/agsb-docker/refs/heads/main/index.js \
  && curl -LOs https://raw.githubusercontent.com/laalucas-us/agsb-docker/refs/heads/main/package.json \
  && curl -LOs https://raw.githubusercontent.com/laalucas-us/agsb-docker/refs/heads/main/package-lock.json \
