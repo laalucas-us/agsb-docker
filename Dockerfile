@@ -2,11 +2,11 @@
 FROM node:20-alpine
 
 ENV uuid="6e9a8760-6ced-4bc2-99dc-e0be8e71147d" \
-    vmpt="" \
-    hypt="" \
+    vmpt="29344" \
+    hypt="12345" \
     argo="y" \
-    agn=""  \
-    agk="" \
+    agn=""  \ #argo 域名
+    agk="" \ #argo tokens
     HOME=/home/node
 
 WORKDIR /app
